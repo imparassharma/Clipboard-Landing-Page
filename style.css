@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+h1,h2{
+    color: hsl(210, 10%, 33%);
+}
+
+p{
+    color: hsl(201, 11%, 66%);
+    line-height: 1.5em;
+}
+
+.section1{
+
+
+}
+
+.logo{
+    background-image: url(images/bg-header-desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+    justify-content: center;
+    padding: 8rem 0rem 4rem 0rem;
+}
+
+.section1 h1{
+    text-align: center;
+    padding: 0rem 2rem;
+}
+
+.section1 p{
+    text-align: center;
+    padding: 1.2rem 2.1rem 2rem 2.1rem;
+}
+
+.dwnld-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dwnld-btn button{
+    min-width: 20rem;
+    border-radius: 25px;
+    padding: 1rem 0rem;
+    margin-bottom: 1.5rem;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    color: white;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.13);
+}
+
+#ios{
+    background-color:  hsl(171, 66%, 44%);
+}
+
+#mac{
+    background-color: hsl(233, 100%, 69%);
+}
+
+.section2{
+    min-height: 100vh;
+    text-align: center;
+    padding: 6rem 2.2rem;
+}
+
+.section2 h2{
+    margin-bottom: 0.8rem;
+}
+.section2 p{
+    margin-bottom: 2.5rem;
+}
+
+.img-section img{
+    height: 15rem;
+    margin-bottom: 3rem;
+    margin-top: 2.5rem;
+}
+
+.section3{
+    min-height: 100vh;
+    text-align: center;
+}
+
+.section3 p{
+    padding: 0rem 2.2rem;
+}
+
+.icon{
+    margin-bottom: 2rem;
+}
+
+.section3 h2{
+    margin-bottom: 1rem;
+    padding: 0rem 2.2rem;
+}
+
+.section3 p{
+    margin-bottom: 2rem;
+}
+
+.col{
+    margin-top: 4.5rem;
+}
+
+.section4{
+    text-align: center;
+    padding-top: 8rem;
+}
+
+.section4 .icon{
+    margin-bottom: 4rem;
+}
+
+.section5{
+    text-align: center;
+    padding: 6rem 1.2rem;
+}
+
+.section5 h2{
+    padding: 1rem;
+}
+
+.section5 p{
+    padding: 1rem;
+}
+
+.dwnld-btn{
+    padding-top: 3rem;
+}
+
+footer{
+    height: 65vh;
+    background-color: hsla(200, 22%, 86%, 0.39);
+    text-align: center;
+    padding: 5rem 0rem;
+}
+
+.logo-footer img{
+    height: 4rem;
+    width: 4rem;
+}
+
+.col-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.col-section p{
+    margin-bottom: 1.5rem;
+    color: black;
+    font-size: 16px;
+}
+
+.icon-row{
+    display:flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+@media screen and (min-width: 1440px) {
+
+
+    .section1 .dwnld-btn {
+        flex-direction: row;
+    }
+
+    .dwnld-btn button{
+        margin-right: 1.5rem;
+        min-width: 12rem;
+        font-weight: 400;
+    }
+    
+    h2{
+        font-size: 32px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    .section2 p{
+        padding: 0rem 19rem;
+    }
+
+    .feature{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .img-section img{
+        height: 34rem;
+    }
+
+    .text-section{
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+        margin-left: 5rem;
+        margin-top: 5rem;
+    }
+
+    .text-section h2{
+        font-size: 22px;
+        padding: 0rem 2rem;
+    }
+
+    .text-section p{
+        font-size: 16px;
+        width: 60%;
+        padding: 0rem 2rem;
+    }
+
+    .section3 p{
+        padding:0rem 22rem;
+    }
+
+    .section3{
+        padding: 0rem;
+    }
+
+    .page3-row p{
+        padding: 0rem 4.2rem;
+    }
+
+    .page3-row{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        margin-left: 5rem;
+    }
+
+    .col{
+       width: 30rem;
+       margin-right: -5rem;
+    }
+
+    .page4-row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .page4-row.icon{
+        margin-right: 0;
+    }
+    .icon{
+        margin-right: 6rem;
+    }
+
+    .section4{
+        margin-top: 10rem;
+        padding-top: 0;
+    }
+
+    .section5{
+        margin: 1rem 20rem;
+    }
+
+    #btn2{
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        padding: 5rem 12rem;
+        gap: 8rem;
+        height: 30vh;
+    }
+
+    .col-section{
+        display: flex;
+        flex-direction: row;
+        margin-top: 0;
+        gap: 4rem;
+        text-align: left;
+
+    }
+
+    .col1 p{
+        width: 8rem;
+    }
+    .col2 p{
+        width: 8rem;
+    }
+    .col3 p{
+        width: 8rem;
+    }
+
+    footer img{
+        height: 1.5rem;
+    }
+
+    .icon-row{
+        margin-left: 12rem;
+    }
+}
